@@ -1,0 +1,93 @@
+img{
+	width: 100%;
+	height: 100%;
+}
+.map{
+	text-align: center;
+	position: relative;
+	
+}
+svg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#bamper{
+	opacity: 0;
+}
+#bamper:hover{
+	opacity: 0.1;
+	fill: red;
+}
+#wheels{
+	opacity: 0;
+}
+#wheels:hover{
+	opacity: 0.2;
+	fill: blue;
+}
+#window-l{
+	opacity: 0;
+}
+#window-l:hover{
+	opacity: 0.2;
+	fill: orange;
+}
+#window-left-one{
+	opacity: 0;
+}
+#window-left-one:hover{
+	opacity: 0.2;
+	fill: orange;
+}
+#window-left-two{
+	opacity: 0;
+}
+#window-left-two:hover{
+	opacity: 0.2;
+	fill: orange;
+}
+#window-left-three:hover{
+	opacity: 0.2;
+	fill: orange;
+}
+#window-left-three{
+	opacity: 0;
+}
+#dor-1{
+	opacity: 0;
+}
+#dor-1:hover{
+	opacity: 0.3;	
+	fill: #56973E;
+}
+#dor-2{
+	opacity: 0;
+}
+#dor-2:hover{
+	opacity: 0.3;
+	fill: #56973E;
+}
+#light-1{
+	opacity: 0;
+}
+#light-1:hover{
+	opacity: 0.3;
+	fill: yellow;
+}
+#light-2{
+	opacity: 0;
+}
+#light-2:hover{
+	opacity: 0.3;
+	fill: yellow;
+}
+#reshotka{
+	opacity: 0;
+}
+#reshotka:hover{
+	opacity: 0.3;
+	fill: #5697D0;
+}
