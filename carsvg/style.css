@@ -7,6 +7,9 @@ img{
 	position: relative;
 	
 }
+.text{
+	padding: 10px;
+}
 svg{
 	position: absolute;
 	left: 0;
@@ -90,4 +93,9 @@ svg{
 #reshotka:hover{
 	opacity: 0.3;
 	fill: #5697D0;
+}
+.text{
+	position: absolute;
+	bottom: 50px;
+	left: 20px;
 }
