@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Museo-900; /* Имя шрифта */
+    src: url(../fonts/MuseoSansCyrl_900_Italic_1.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Museo-500; /* Имя шрифта */
+    src: url(../fonts/MuseoSansCyrl_500_Italic_1.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Museo-300; /* Имя шрифта */
+    src: url(../fonts/MuseoSansCyrl_300_Italic_1.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Betina; /* Имя шрифта */
+    src: url(../fonts/betina.ttf); /* Путь к файлу со шрифтом */
+}
