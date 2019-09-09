@@ -1,6 +1,6 @@
 body{
 	/*background: #5697D0;*/
-	color: white;
+	
 }
 .main-block{
 	width: 100%;
@@ -27,16 +27,15 @@ body{
 	color: #ffffff;
 }
 .block-one{
-	
-	height: 2040px;
+	height: 2000px;
 }
 .faq{
 	font-family: Museo-300;
 	font-size: 22px;
 	margin-top: -12px;
 }
-.bg-1{
-	background-image: url(../img/bg-1.png);
+.bg-1 img{
+	width: 100%;
 }
 .video-1{
 	padding-top: 100px;
@@ -63,7 +62,317 @@ body{
 .text{
 	
 }
-@media screen and (min-width: 240px) and (max-width: 766px){
+.features-h{
+	font-family: Museo-b;
+	font-size: 29px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.metala h3{
+	color: grey;
+}
+.healhte h3{
+	color: green;
+}
+.b2{
+	background: green;
+	width: 100%;
+	height: 507px;
+	background: url(../img/male.png) no-repeat center top / cover;
+	text-align: center;
+
+}
+.features-p{
+	margin-top: 260px;
+}
+.bg1 p, .bg2 p, .bg3 p, .bg4 p, .bg5 p, .bg6 p{
+	background: white;
+	font-family: Museo-b;
+	font-weight: ;
+}
+.bg1 p{
+	color: #598fc5;
+}
+.bg2 p{
+	color: #b01331;
+}
+.bg3 p{
+	color: #573305;
+}
+.bg4 p{
+	color: #7f7f7f;
+}
+.bg5 p{
+	color: #5c1e80;
+}
+.bg6 p{
+	color: #4d9e47;
+}
+.bg1{
+	width: 100%;
+	height: 507px;
+	background: url(../img/male.png) no-repeat center top / cover;
+	text-align: center;
+}
+.bg2{
+	width: 100%;
+	height: 507px;
+	background: url(../img/kotel.png) no-repeat center top / cover;
+	text-align: center;
+}
+.bg3{
+	width: 100%;
+	height: 507px;
+	background: url(../img/komnata.png) no-repeat center top / cover;
+	text-align: center;
+}
+.bg4{
+	width: 100%;
+	height: 507px;
+	background: url(../img/zamok.png) no-repeat center top / cover;
+	text-align: center;
+}
+.bg5{
+	width: 100%;
+	height: 507px;
+	background: url(../img/prapor.png) no-repeat center top / cover;
+	text-align: center;
+}
+.bg6{
+	width: 100%;
+	height: 507px;
+	background: url(../img/kuhna.png) no-repeat center top / cover;
+	text-align: center;
+}
+.wather{
+	background: url(../img/wather.png) no-repeat center top / cover;
+	height: 510px;
+}
+.wather2{
+	background: url(../img/kotel-100.png) no-repeat center top / cover;
+	height: 510px;
+}
+.mebels{
+	background: url(../img/polka.png) no-repeat center top / cover;
+	height: 510px;
+}
+.metal{
+	background: url(../img/metal.png) no-repeat center top / cover;
+	height: 510px;
+}
+.light{
+	background: url(../img/light.png) no-repeat center top / cover;
+	height: 510px;
+}
+.healt{
+	background: url(../img/healt.png) no-repeat center top / cover;
+	height: 510px;
+}
+.wather-h{
+	margin: 0 auto;
+	font-size: 46px;
+	font-family: Museo-900;
+	margin-top: 100px;
+	height: 10px;
+}
+.m{
+	margin-right: 30px;
+}
+.wather2 p{
+	color: #b01332;
+}
+.mebels p{
+	color: #573305;
+}
+.metal p{
+	color: #444444;
+}
+.light p{
+	color: #5c1e80;
+}
+.box1{
+	height: 10px;
+}
+.box2{
+	height: 10px;
+}
+.wather-p{
+	color: #1c8d0f;
+	margin-right: 60px;
+	width: 360px;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Museo-900;
+	background: white;
+	height: 50px;
+	padding-top: 10px;
+}
+.prezent{
+	text-align: center;
+	padding-top: 20px;
+}
+.prezent p{
+	color: #598fc5;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.energo{
+	text-align: center;
+	padding-top: 20px;
+}
+.energo p{
+	color: #a5485b;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.mebli{
+	text-align: center;
+	padding-top: 20px;
+}
+.mebli p{
+	color: #a5485b;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.metala{
+	text-align: center;
+	padding-top: 20px;
+}
+.metala p{
+	color: #444444;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.lighte{
+	text-align: center;
+	padding-top: 20px;
+}
+.lighte p{
+	color: #5c1e80;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.healhte{
+	text-align: center;
+	padding-top: 20px;
+}
+.healhte p{
+	color: #1b8e0e;
+	background: white;
+	border-bottom: 2px solid black;
+}
+.organic2{
+	text-align: center;
+}
+.input-bg{
+	text-align: center;
+}
+.input-bg input{
+	width: 390px;
+	padding: 5px;
+	margin-right: 40px;
+	color: grey;
+}
+.input-h2{
+	padding-top: 60px;
+	padding-bottom: 25px;
+}
+.input-bg h2{
+	padding-bottom: 50px;
+}
+.inputs{
+	padding-bottom: 40px;
+}
+.button{
+	background: orange;
+	display: block;
+	width: 220px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	color: #000;
+	font-size: 22px;
+	font-family: Museo-a;
+}
+.btn a{
+	text-decoration: none;
+	
+}
+.footer-text{
+	text-align: center;
+	background: black;
+	color: #fff;
+	padding-top: 100px;
+}n
+.block1{
+	text-align: center;
+}
+.block2{
+	text-align: center;
+}
+.prezent p{
+
+}
+.fruits{
+	background: url(../img/fruits.jpg) no-repeat center top / cover;
+	height: 500px;
+}
+.prezent{
+	background: url(../img/prezent.png) no-repeat center top / cover;
+	height: 310px;
+}
+.energo{
+	background: url(../img/energo.png) no-repeat center top / cover;
+	height: 310px;
+}
+.mebli{
+	background: url(../img/mebli.png) no-repeat center top / cover;
+	height: 310px;
+}
+.metala{
+	background: url(../img/metala.png) no-repeat center top / cover;
+	height: 310px;
+}
+.lighte{
+	background: url(../img/lighte.png) no-repeat center top / cover;
+	height: 310px;
+}
+.healhte{
+	background: url(../img/healhte.png) no-repeat center top / cover;
+	height: 310px;
+}
+.input-bg{
+	background: url(../img/input-bg.png) no-repeat center top / cover;
+}
+.video-2{
+	
+}
+.prezent h2{
+	color: #fff;
+	font-size: 34px;
+}
+.strelka{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.strelka1{
+	padding-top: 70px;
+}
+.for{
+	text-align: center;
+	font-size: 34px;
+	padding-bottom: 50px;
+}
+.eda{
+	font-family: Museo-c;
+	padding-bottom: 20px;
+}
+.input-h2 h2{
+	color: #fbc60f;
+	background: white;
+	font-family: Museo-a;
+}
+@media screen and (min-width: 240px) and (max-width: 575px){
 	.female{
 		width: 300px;
 		padding-top: 28px;
@@ -100,6 +409,54 @@ body{
 		padding-bottom: 25px;
 		width: 80%;
 	}
+	.organic2{
+		width: 100%;
+	}
+	.input-bg input{
+		width: 200px;
+	}
+	.wather-h{
+		font-size: 26px;
+	}
+	.m{
+		margin-right: 20px;
+	}
+	.features-h{
+		font-size: 22px;
+	}
+	.wather-p{
+		margin-right: 40px;
+		font-size: 14px;
+	}
+	.box1{
+		padding-left: 42px;
+	}
+	.wather-p-b{
+		height: 80px;
+	}
+	.wather-p-c{
+		margin-right: 40px;
+
+	}
+	.block-one{
+		height: 1550px;
+	}
+	.video-2{
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.input-h2 h2{
+		height: 34px;
+		padding-top: 5px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.input-bg input{
+		margin-left: 32px;
+	}
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
 	.img-comp{
@@ -131,12 +488,77 @@ body{
 		width: 80%;
 		height: 380px;
 	}
+	.wather p{
+		height: 80px;
+		margin-left: 40px;
+	}
+	.wather2 p{
+		height: 70px;
+		margin-left: 40px;
+	}
+	.mebels p{
+		margin-left: 40px;
+	}
+	.metal p{
+		margin-left: 40px;
+	}
+	.mt{
+		font-size: 16px;
+	}
+	.light p{
+		margin-left: 40px;
+	}
+	.healt p{
+		margin-left: 40px;
+	}
+	.video-2{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		padding-top: 30px;
+	}
+	.features-p{
+		font-size: 20px;
+	}
+	.block1, {
+		margin-right: 15px;
+	}
+	.big{
+		margin-left: 12px;
+	}
+	.block-one{
+		height: 2150px;
+	}
+	.features1{
+		margin-top: 50px;
+	}
+	.input-h2 h2{
+		height: 40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.footer-text{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-text p{
+		margin-bottom: 0;
+	}
+	.footer-m{
+		padding-bottom: 20px;
+	}
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
 	.organic{
 		padding-bottom: 28px;
 		padding-top: 28px;
 		width: 90%;
+	}
+	.main-block{
+
+	}
+	.features1{
+		margin-top: 500px;
 	}
 	.img-comp{
 	width: 67px;
@@ -166,6 +588,18 @@ body{
 	.video-1{
 		height: 400px;
 		width: 80%;
+	}
+	.video-2{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	.input-h2 h2{
+		height: 40px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 }
 @media screen and (min-width: 992px) and (max-width: 1199px){
@@ -201,11 +635,21 @@ body{
 		font-weight: lighter;
 	}
 	.video-1{
-		padding-top: 250px;
+		padding-top: 200px;
 		height: 700px;
 	}
 	.header{
 		height: 72px;
+	}
+	.video-2{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.block-one{
+		height: 1550px;
 	}
 }
 @media screen and (min-width: 1200px){
@@ -220,6 +664,7 @@ body{
 	}
 	.block-one{
 		text-align: center;
+		height: 2400px;
 	}
 	.text{
 		padding-top: 90px;
@@ -239,5 +684,16 @@ body{
 	}
 	.faq{
 		font-size: 26px;
+	}
+	.video-2{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.input-h2 h2{
+		height: 40px;
+		padding-top: 5px;
 	}
 }

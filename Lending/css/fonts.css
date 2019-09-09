@@ -14,3 +14,15 @@
     font-family: Betina; /* Имя шрифта */
     src: url(../fonts/betina.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+    font-family: Museo-a; /* Имя шрифта */
+    src: url(../fonts/MuseoSansCyrl_A.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Museo-b; /* Имя шрифта */
+    src: url(../fonts/MuseoSansCyrl_B.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Museo-c; /* Имя шрифта */
+    src: url(../fonts/MuseoSansCyrl_C.otf); /* Путь к файлу со шрифтом */
+}
