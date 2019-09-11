@@ -2,6 +2,9 @@
 	text-align: center;
 	color: red;
 }
+.cont{
+	padding: 0;
+}
 .rows{
 	background: orange;
 	width: 50%;
@@ -10,6 +13,7 @@
 .main1{
 	background: #CF8893;
 	width: 100%;
+	margin: 0;
 }
 @media screen and (min-width: 1px) and (max-width: 239px){
 	p{
