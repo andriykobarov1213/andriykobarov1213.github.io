@@ -1,0 +1,65 @@
+.block1{
+	text-align: center;
+	color: red;
+}
+.rows{
+	background: orange;
+	width: 50%;
+	margin: 0 auto;
+}
+.main1{
+	background: #CF8893;
+	width: 100%;
+}
+@media screen and (min-width: 1px) and (max-width: 239px){
+	p{
+		padding: 5px;
+		font-weight: bold;
+	}
+	h1{
+		font-size: 28px;
+	}
+	.rows{
+		width: 80%;
+	}
+}
+@media screen and (min-width: 240px) and (max-width: 479px){
+	p{
+		font-weight: bold;
+		padding: 6px;
+		font-size: 22px;
+	}
+	.rows{
+		width: 80%;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	p{
+		font-weight: bold;
+		padding: 6px;
+		font-size: 22px;
+	}
+	.rows{
+		width: 80%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 901px){
+	p{
+		font-weight: bold;
+		padding: 6px;
+		font-size: 22px;
+	}
+	.rows{
+		width: 80%;
+	}
+}
+@media screen and (min-width: 902px){
+	p{
+		font-weight: bold;
+		padding: 10px;
+		font-size: 24px;
+	}
+	.rows{
+		width: 50%;
+	}
+}
