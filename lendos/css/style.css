@@ -3,6 +3,7 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	background: #101120 url("../img/bg.png") repeat center top;
 }
+/* 1 блок */
 .container{
 	max-width: 2460px;
 	
@@ -11,9 +12,7 @@ body{
 	width: 163px;
 	height: 38px;
 }
-.log{
-	position: fixed;
-}
+
 .text-logo{
 	font-size: 13px;
 	line-height: 18px;
@@ -24,57 +23,59 @@ body{
 	padding-right: 26px;
 }
 .num{
-	right: 60px;
-	position: fixed;
+	position: static;
+	padding-top: 64px;
+	padding-right: 64px;
+}
+.log{
+	position: static;
+	padding-top: 64px;
+	padding-left: 64px;
 }
 .line-box{
-	padding-bottom: 8px;
+	padding-top: 5px;
 }
 .line{
 	width: 48px;
 	height: 4px;
 	background: #69BAC4;
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 }
 .main-img{
-	margin-top: 270px;
+	/*margin-top: 270px;*/
 	/*margin-top: 310px;*/
-	margin-bottom: 150px;
+	/*margin-bottom: 150px;*/
 	/*margin-bottom: 350px;*/
-}
-.menu{
-	position: fixed;
-	top: 64px;
-	left: 60px;
-	right: 60px;
-	/*width: 100%;*/
-	/*margin-top: 64px;*/
-}
-.buttons{
-	position: fixed;
-	top: 1000px;
-	left: 60px;
-	right: 60px;
+	padding-bottom: 200px;
 }
 .projects{
 	position: fixed;
-	bottom: 64px;
+	top: 800px;
+	padding-left: 64px;
+}
+.projects a{
+	text-decoration: none;
+}
+.about{
+	position: fixed;
+	top: 800px;
+	right: 64px;
 }
 .proekt{
 	background: url("../img/about.png") no-repeat center top;
 	width: 300px;
 	height: 70px;
 }
+.proekt a{
+	text-decoration: none;
+}
 .about-text{
-	padding-top: 24px;
 	padding-left: 65px;
+	display: block;
+	padding-top: 22px;
 	font-size: 18px;
 	text-transform: uppercase;
-}
-.about{
-	position: fixed;
-	right: 60px;
-	bottom: 64px;
+	color: #69BAC4;
 }
 .projects-text{
 	font-size: 18px;
@@ -82,4 +83,27 @@ body{
 	color: #69BAC4;
 	padding-top: 8px;
 	padding-left: 8px;
+}
+/* 2 блок */
+.circles{
+	padding-bottom: 130px;
+}
+.box-03{
+	text-align: center;
+	width: 252px;
+}
+.box-01,.box-02{
+	text-align: center;
+	margin-right: 170px;
+	width: 252px;
+}
+.box-01 p,.box-02 p,.box-03 p{
+	padding-top: 14px;
+}
+/*3 блок*/
+.addidas-section{
+	margin-left: 280px;
+}
+.addidas-text{
+	text-align: left;
 }
