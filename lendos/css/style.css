@@ -1,11 +1,11 @@
 body{
-	background: #161725;
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
+	background: #101120 url("../img/bg.png") repeat center top;
 }
 .container{
 	max-width: 2460px;
-	background: #101120 url("../img/bg.png") no-repeat center top;
+	
 }
 .logo{
 	width: 163px;
@@ -27,6 +27,9 @@ body{
 	right: 60px;
 	position: fixed;
 }
+.line-box{
+	padding-bottom: 8px;
+}
 .line{
 	width: 48px;
 	height: 4px;
@@ -34,7 +37,7 @@ body{
 	margin-bottom: 12px;
 }
 .main-img{
-	margin-top: 280px;
+	margin-top: 270px;
 	/*margin-top: 310px;*/
 	margin-bottom: 150px;
 	/*margin-bottom: 350px;*/
