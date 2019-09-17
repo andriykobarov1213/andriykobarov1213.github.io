@@ -222,6 +222,9 @@ body{
 .montaz-box3{
 	width: 220px;
 }
+.montaz-box1 p,.montaz-box2 p,.montaz-box3 p{
+	padding-top: 15px;
+}
 .srochniy{
 	background: url("../img/about.png") no-repeat center top;
 	width: 300px;
@@ -246,8 +249,46 @@ body{
 	padding-bottom: 200px;
 }
 .mr-left{
-	margin-left: 200px;
+	margin-left: 3%;
 }
 .strelka{
 	padding-bottom: 100px;
+}
+/*блок 6*/
+.vector{
+	background: url("../img/vector.png") no-repeat center top;
+}
+.col1{
+	width: 555px;
+	height: 150px;
+	margin-bottom: 142px;
+	margin-right: 165px;
+}
+.col2{
+	width: 545px;
+	height: 135px;
+	margin-bottom: 142px;
+}
+.col3{
+	width: 555px;
+	height: 150px;
+	margin-right: 165px;
+}
+.col4{
+	width: 545px;
+	height: 135px;
+}
+.text-group{
+	padding-bottom: 90px;
+	padding-left: 370px;
+}
+.stol-text h1{
+	font-size: 34px;	
+}
+.stol-text p{
+	font-size: 18px;
+	width: 646px;
+}
+.stol-text{
+	padding-top: 100px;
 }
