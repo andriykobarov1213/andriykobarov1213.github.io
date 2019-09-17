@@ -47,19 +47,31 @@ body{
 	/*margin-top: 310px;*/
 	/*margin-bottom: 150px;*/
 	/*margin-bottom: 350px;*/
-	padding-bottom: 200px;
+	padding-bottom: 100px;
+	padding-top: 200px;
 }
 .projects{
 	position: fixed;
-	top: 800px;
+	top: 900px;
 	padding-left: 64px;
+}
+.logotype{
+	position: fixed;
+	top: 64px;
+	padding-left: 64px;
+}
+.number-menu{
+	position: fixed;
+	top: 64px;
+	padding-left: 64px;
+	right: 64px;
 }
 .projects a{
 	text-decoration: none;
 }
 .about{
 	position: fixed;
-	top: 800px;
+	top: 900px;
 	right: 64px;
 }
 .proekt{
@@ -87,7 +99,8 @@ body{
 }
 /* 2 блок */
 .circles{
-	padding-bottom: 130px;
+	padding-bottom: 100px;
+	padding-top: 150px;
 }
 .box-03{
 	text-align: center;
@@ -149,7 +162,8 @@ body{
 	padding: 14px;
 }
 .call{
-	padding-bottom: 200px;
+	padding-bottom: 150px;
+	padding-top: 150px;
 }
 .call h1{
 	text-transform: uppercase;
@@ -198,7 +212,8 @@ body{
 	padding-left: 180px;
 }
 .printer{
-	padding-bottom: 200px;
+	padding-bottom: 100px;
+	padding-top: 200px;
 }
 .print-text{
 	padding-top: 132px;
@@ -259,13 +274,18 @@ body{
 	color: #69BAC4;
 }
 .montaz{
-	padding-bottom: 200px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 	padding-left: 150px;
 }
 .mr-left{
 	margin-left: 3%;
 }
 .strelka{
+	padding-bottom: 100px;
+}
+.row-stol{
+	padding-top: 130px;
 	padding-bottom: 100px;
 }
 /*блок 6*/
