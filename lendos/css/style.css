@@ -40,6 +40,7 @@ body{
 	height: 4px;
 	background: #69BAC4;
 	margin-bottom: 8px;
+	cursor: pointer;
 }
 .main-img{
 	/*margin-top: 270px;*/
@@ -101,9 +102,149 @@ body{
 	padding-top: 14px;
 }
 /*3 блок*/
+.addidas-title{
+	position: absolute;
+	top: 0;
+}
+/*.add-d{
+	position: absolute;
+	top: 100px;
+}*/
+.ttt{
+	position: absolute;
+	left: 20%;
+}
+/*.addidas-img img{
+	width: 100%;
+}
 .addidas-section{
-	margin-left: 280px;
+	margin-left: 240px;
 }
 .addidas-text{
 	text-align: left;
+	padding-top: 120px;
+}
+.addidas-section p{
+	padding-bottom: 18px;
+}
+.addidas-text p{
+	font-size: 18px;
+}*/
+.blue-text{
+	color: #69BAC4;
+	font-size: 18px;
+}
+.add-text{
+	padding-top: 120px;
+}
+.add-text p{
+	padding-bottom: 16px;
+}
+/*4 блок*/
+.call-text{
+	width: 532px;
+	height: 182px;
+	border: 1.1px solid #69BAC4; 
+	margin-left: 24px;
+	padding: 14px;
+}
+.call{
+	padding-bottom: 200px;
+}
+.call h1{
+	text-transform: uppercase;
+}
+.call input{
+	border: 1.1px solid #69BAC4;
+	background-color: transparent;
+	color: #fff;
+	width: 612px;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+.comment{
+	height: 82px;
+}
+.obsudit{
+	background: url("../img/full.png") no-repeat center top;
+	width: 300px;
+	height: 70px;
+}
+.obsudit a{
+	display: block;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #101120;
+	padding-top: 24px;
+	padding-left: 60px;
+	text-decoration: none;
+}
+.maket{
+	background: url("../img/about.png") no-repeat center top;
+	width: 300px;
+	height: 70px;
+}
+.maket a{
+	display: block;
+	padding-left: 60px;
+	padding-top: 24px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #69BAC4;
+	text-decoration: none;
+}
+/*блок 5*/
+.printer{
+	padding-bottom: 200px;
+}
+.print-text{
+	padding-top: 132px;
+}
+.print-text p{
+	padding-bottom: 16px;
+}
+.uznat{
+	display: block;
+	padding-left: 230px;
+
+}
+.montaz-line{
+	padding-top: 20px;
+}
+.montaz-box1{
+	width: 230px;
+	margin-right: 155px;
+}
+.montaz-box2{
+	width: 300px;
+	margin-right: 162px;
+}
+.montaz-box3{
+	width: 220px;
+}
+.srochniy{
+	background: url("../img/about.png") no-repeat center top;
+	width: 300px;
+	height: 70px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+.srochniy a{
+	display: block;
+	padding-left: 25px;
+	padding-top: 24px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #69BAC4;
+	text-decoration: none;
+}
+.blue-titl{
+	font-size: 24px;
+	color: #69BAC4;
+}
+.montaz{
+	padding-bottom: 200px;
+}
+.mr-left{
+	margin-left: 200px;
 }
