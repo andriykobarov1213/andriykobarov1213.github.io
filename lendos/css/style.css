@@ -194,6 +194,9 @@ body{
 	text-decoration: none;
 }
 /*блок 5*/
+.printer-title{
+	padding-left: 180px;
+}
 .printer{
 	padding-bottom: 200px;
 }
@@ -206,7 +209,17 @@ body{
 .uznat{
 	display: block;
 	padding-left: 230px;
-
+}
+.pr02{
+	padding-top: 140px;
+	padding-right: 20px;
+}
+.addidas-title2{
+	padding-left: 170px;
+}
+.ad01{
+	padding-top: 140px;
+	padding-right: 20px;
 }
 .montaz-line{
 	padding-top: 20px;
@@ -247,6 +260,7 @@ body{
 }
 .montaz{
 	padding-bottom: 200px;
+	padding-left: 150px;
 }
 .mr-left{
 	margin-left: 3%;
@@ -291,4 +305,105 @@ body{
 }
 .stol-text{
 	padding-top: 100px;
+}
+/*блок 7*/
+.block1{
+	background: url("../img/11.png") no-repeat center top;
+	margin-right: 40px;
+	text-align: center;
+	padding: 40px;
+}
+.block2{
+	background: url("../img/9850.png") no-repeat center top;
+	margin-right: 40px;
+	text-align: center;
+	padding: 40px;
+}
+.block3{
+	background: url("../img/4.png") no-repeat center top;
+	margin-right: 40px;
+	text-align: center;
+	padding: 40px;
+}
+.block4{
+	background: url("../img/71.png") no-repeat center top;
+	text-align: center;
+	padding: 40px;
+}
+.big{
+	font-size: 96px;
+	color: #69BAC4;
+	margin-bottom: 0;
+}
+.s-big{
+	font-size: 48px;
+}
+/*.block1 p.big{
+	padding-left: 0px;
+	padding-top: 40px;
+}
+.block2 p.big{
+	padding-left: 0px;
+	padding-top: 30px;	
+}
+.block3 p.big{
+	padding-left: 0px;
+	padding-top: 40px;
+}
+.block4 p.big{
+	padding-left: 0px;
+	padding-top: 40px;
+}*/
+.leaders{
+	padding-top: 100px;
+	width: 629px;
+	margin-left: 380px;
+}
+.lead-text{
+	font-size: 18px;
+}
+.ld-text{
+	font-size: 24px;
+	color: #69BAC4;
+}
+/*блок 8*/
+.forma{
+	text-align: center;
+	/*background: url("../img/forma.png") no-repeat center top;*/
+	width: 1434px;
+	border: 1.1px solid #69BAC4;
+	height: 412px;
+	padding-bottom: 200px;
+}
+.forma input{
+	
+	background-color: transparent;
+	color: #fff;
+	width: 604px;
+	height: 48px;
+	padding: 10px;
+	margin-bottom: 25px;
+}
+.formaa{
+	margin-left: 200px;
+}
+.form-uslovia{
+	font-size: 24px;
+}
+.form-b{
+	background: url("../img/form-b.png") no-repeat center top;
+/*	width: 420px;
+	height: 70px;*/
+	/*padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 60px;
+	padding-left: 60px;*/
+}
+.form-b a{
+	display: block;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #101120;
+	text-align: center;
+	padding: 26px;
 }
