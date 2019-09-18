@@ -52,7 +52,8 @@ body{
 }
 .projects{
 	position: fixed;
-	top: 900px;
+	/*top: 900px;*/
+	bottom: 10%;
 	padding-left: 64px;
 }
 .logotype{
@@ -71,7 +72,8 @@ body{
 }
 .about{
 	position: fixed;
-	top: 900px;
+	/*top: 900px;*/
+	bottom: 10%;
 	right: 64px;
 }
 .proekt{
@@ -164,6 +166,7 @@ body{
 .call{
 	padding-bottom: 150px;
 	padding-top: 150px;
+	padding-left: 260px;
 }
 .call h1{
 	text-transform: uppercase;
@@ -209,7 +212,7 @@ body{
 }
 /*блок 5*/
 .printer-title{
-	padding-left: 180px;
+	padding-left: 250px;
 }
 .printer{
 	padding-bottom: 100px;
@@ -221,20 +224,32 @@ body{
 .print-text p{
 	padding-bottom: 16px;
 }
-.uznat{
+.uznat1{
 	display: block;
-	padding-left: 230px;
+	padding-left: 440px;
+}
+.uznat2{
+	display: block;
+	padding-left: 490px;
+}
+.uznat3{
+	display: block;
+	padding-left: 300px;
+}
+.uznat4{
+	display: block;
+	padding-left: 1200px;
 }
 .pr02{
 	padding-top: 140px;
-	padding-right: 20px;
+	padding-right: 70px;
 }
 .addidas-title2{
-	padding-left: 170px;
+	padding-left: 210px;
 }
 .ad01{
 	padding-top: 140px;
-	padding-right: 20px;
+	padding-right: 70px;
 }
 .montaz-line{
 	padding-top: 20px;
@@ -276,7 +291,7 @@ body{
 .montaz{
 	padding-bottom: 100px;
 	padding-top: 100px;
-	padding-left: 150px;
+	padding-left: 220px;
 }
 .mr-left{
 	margin-left: 3%;
@@ -286,7 +301,6 @@ body{
 }
 .row-stol{
 	padding-top: 130px;
-	padding-bottom: 100px;
 }
 /*блок 6*/
 .vector{
