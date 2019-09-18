@@ -25,6 +25,31 @@ a{
 	display: none;
 	padding-left: 0;
 }
+.menu3{
+	background: #101120 url("../img/bg.png") repeat center top;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	padding-top: 100px;
+	display: none;
+	
+}
+.line-box2{
+	display: none;
+	font-size: 36px;
+	color: #69BAC4;
+	cursor: pointer;
+}
+.menu3 p{
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.first{
+	padding-top: 30px;
+}
 .menu2 a{
 	display: block;
 	font-size: 36px;
@@ -69,7 +94,7 @@ a{
 .line-box{
 	padding-top: 5px;
 	cursor: pointer;
-	background: red;
+	/*background: red;*/
 }
 .line{
 	width: 48px;
