@@ -42,10 +42,12 @@ a{
 	color: #69BAC4;
 	cursor: pointer;
 }
-.menu3 p{
+.menu3 a{
 	font-size: 36px;
 	text-transform: uppercase;
 	padding-bottom: 30px;
+	display: block;
+	
 }
 .first{
 	padding-top: 30px;
