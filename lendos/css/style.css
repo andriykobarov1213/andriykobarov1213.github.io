@@ -34,7 +34,7 @@ a{
 	text-align: center;
 	padding-top: 100px;
 	display: none;
-	
+	padding-top: 200px;
 }
 .line-box2{
 	display: none;
@@ -1004,6 +1004,14 @@ a{
 	}
 	.addis{
 		padding-top: 240px;
+	}
+	.strelka18{
+		position: absolute;
+		top: 100px;
+	}
+	.strelka17{
+		position: absolute;
+		top: 150px;
 	}
 }
 @media screen and (min-width: 567px) and (max-width: 760px){
