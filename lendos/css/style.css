@@ -9,7 +9,7 @@ body{
 	
 }
 a{
-	color: #fff;
+	color: #69BAC4;
 }
 .menu-left{
 	width: 564px;
@@ -48,9 +48,18 @@ a{
 	padding-bottom: 30px;
 	display: block;
 	text-decoration: none;
+	color: #fff;
+}
+.lol{
+	font-size: 30px;
+}
+.menu3 a:hover{
+	color: #69BAC4;
+	background: url("../img/hover.png") no-repeat center top;
+	width: 100%;
 }
 .first{
-	padding-top: 30px;
+	margin-top: 30px;
 }
 .menu2 a{
 	display: block;
@@ -59,6 +68,7 @@ a{
 	width: 100%;
 	padding: 20px;
 	text-decoration: none;
+	color: #fff;
 }
 .menu2 a:hover{
 	background: #101120;
@@ -83,6 +93,10 @@ a{
 	padding-right: 26px;
 	color: #fff;
 }
+.number-menu a{
+	text-decoration: none;
+}
+
 .num{
 	position: static;
 	padding-top: 64px;
@@ -829,7 +843,7 @@ a{
 	padding-top: 60px;
 	/*background: url("../img/forma.png") no-repeat center top;*/
 	width: 94%;
-	border: 1.1px solid #69BAC4;
+	border: 1.1px solid 	;
 	height: 472px;
 	padding-bottom: 100px;
 	}
@@ -880,6 +894,10 @@ a{
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px){
+	.uznat4{
+		padding-left: 700px;
+		color: #69BAC4;
+	}
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
@@ -959,6 +977,7 @@ a{
 	}
 	.text-group{
 		padding-left: 100px;
+		margin-bottom: 80px;
 	}
 }
 @media screen and (min-width: 1441px) and (max-width: 1580px){
@@ -970,6 +989,9 @@ a{
 @media screen and (min-width: 1441px){
 	.addidos-text{
 		padding-top: 120px;
+	}
+	.uznat4{
+		padding-left: 1000px;
 	}
 	.addidos-text p{
 		padding-bottom: 16px;
@@ -1177,6 +1199,244 @@ a{
 	}
 	.col4{
 	width: 445px;
+	height: 135px;
+	margin-bottom: 30px;
+	}
+	.stol-text p{
+	font-size: 18px;
+	width: 546px;
+	}
+	.vector{
+		background: none;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 566px){
+	.main-img{
+		padding-bottom: 50px;
+		padding-top: 150px;
+	}
+	.main-img img{
+		width: 80%;
+	}
+	.buttons{
+
+	}
+	.number-menu{
+		flex-direction: column;
+		left: 130px;
+		padding-right: 30%;	
+	}
+	.logotype{
+		flex-direction: column;
+		padding-left: 26px;
+	}
+	.number{
+		font-size: 16px;
+	}
+	.circles{
+		flex-direction: column;
+		padding-left: 25%;
+	}
+	.about{
+		bottom: 5%;
+	}
+	.projects{
+		bottom: 1%;
+		left: 15%;
+	}
+	.strelka18{
+		display: none;
+	}
+	.strelka17{
+		display: none;
+	}
+	.strelka7{
+		display: none;
+	}
+	.strelka9{
+		display: none;
+	}
+	.strelka{
+		display: none;
+	}
+	.strelka2{
+		display: none;
+	}
+	.strelka3{
+		display: none;
+	}
+	.strelka4{
+		display: none;
+	}
+
+	.img-addidas{
+		width: 100%;
+	}
+	.ad01{
+		display: none;
+	}
+	.addidas-title2{
+		padding-left: 0px;
+	}
+	.print-text{
+		padding-top: 50px;
+	}
+	.print-text p{
+		padding-bottom: 0px;
+		font-size: 10px;
+	}
+	.uznat1{
+		padding-left: 100px;
+	}
+	.call input{
+	border: 1.1px solid #69BAC4;
+	background-color: transparent;
+	color: #fff;
+	width: 212px;
+	padding: 10px;
+	margin-bottom: 25px;
+	}
+	.call{
+		padding-left: 50px;
+	}
+	.obsudit{
+		width: 200px;
+		height: 60px;
+		margin-right: 10px;
+	}
+	.obsudit a{
+		padding-left: 26px;
+		font-size: 16px;
+	}
+	.call-text{
+	border: 1.1px solid #69BAC4; 
+	margin-left: 24px;
+	padding: 14px;
+	height: 100%;
+	}
+	.maket{
+		width: 200px;
+		margin-top: 6px;
+		height: 54px;
+		background: none;
+		border: 1.2px solid #69BAC4;
+	}
+	.maket a{
+		font-size: 16px;
+		padding-top: 14px;
+		padding-left: 16px;
+	}
+	.pr02{
+		display: none;
+	}
+	.printer-img{
+		width: 80%;
+	}
+	.printer-title{
+		padding-left: 0px;
+	}
+	.uznat2{
+		padding-left: 100px;
+	}
+	.montaz{
+		padding-left: 0;
+	}
+	.montaz-line div{
+		margin-right: 20px;
+	}
+	.text-group{
+		padding-left: 8%;
+		padding-top: 120px;
+	}
+	.row-stol{
+		padding-left: 0;
+		flex-direction: column;
+	}
+	.stol-img{
+		width: 70%;
+		margin-left: 100px;
+	}
+	.abb{
+		flex-direction: column;
+		margin-left: 30px;
+	}
+	.big{
+		font-size: 76px;
+	}
+	.block1{
+		padding: 10px;
+	}
+	.leaders{
+	padding-top: 100px;
+	width: 629px;
+	margin-left: 0px;
+	}
+	.menu3{
+		padding-top: 150px;
+	}
+	.lead{
+		width: 90%;
+		padding-top: 300px;
+	}
+	.formaa{
+		margin-left: 36px;
+	}
+	.forma input{
+	background-color: transparent;
+	color: #fff;
+	width: 284px;
+	height: 38px;
+	padding: 10px;
+	margin-bottom: 15px;
+	}
+	.forma{
+	text-align: center;
+	/*background: url("../img/forma.png") no-repeat center top;*/
+	width: 90%;
+	border: 1.1px solid #69BAC4;
+	height: 472px;
+	padding-bottom: 100px;
+	}
+	.uznat3{
+		padding-left: 270px;
+	}
+	.one-row{
+		flex-direction: column;
+		text-align: center;
+	}
+	.big{
+		font-size: 64px;
+	}
+	.two-row{
+		flex-direction: column;
+		text-align: center;
+	}
+	.col1 p{
+		max-height: 150px;
+	}
+	.form-b{
+		height: 100%;
+	}
+	.menu3 a{
+
+	}
+	.col1{
+	width: 355px;
+	height: 150px;
+	margin-bottom: 45px;
+	}
+	.col2{
+	width: 345px;
+	height: 135px;
+	margin-bottom: 30px;
+	}
+	.col3{
+	width: 355px;
+	height: 150px;
+	margin-bottom: 40px;
+	}
+	.col4{
+	width: 345px;
 	height: 135px;
 	margin-bottom: 30px;
 	}
