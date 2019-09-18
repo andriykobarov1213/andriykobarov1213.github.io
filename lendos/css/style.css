@@ -534,7 +534,7 @@ a{
 	padding-bottom: 200px;
 }
 .forma input{
-	
+	border: 1.1px solid #69BAC4;
 	background-color: transparent;
 	color: #fff;
 	width: 604px;

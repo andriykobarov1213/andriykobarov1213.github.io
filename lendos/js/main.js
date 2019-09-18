@@ -6,12 +6,18 @@ var menu2 = document.getElementById("menu-right");
 var line1 = document.getElementById("line1");
 var line2 = document.getElementById("line2");
 
+var ssilka1 = document.getElementById("ssilka1");
+var ssilka2 = document.getElementById("ssilka2");
+var ssilka3 = document.getElementById("ssilka3");
+var ssilka4 = document.getElementById("ssilka4");
+var ssilka5 = document.getElementById("ssilka5");
+var ssilka6 = document.getElementById("ssilka6");
+
 var link1 = document.getElementById("link1");
 var link2 = document.getElementById("link2");
 var link3 = document.getElementById("link3");
 var link4 = document.getElementById("link4");
 var link5 = document.getElementById("link5");
-
 
 
 link1.onmouseover = function(){
@@ -48,3 +54,35 @@ line1.onclick = function(){
 close.onclick = function(){
 	menu.style.display = "none";
 } 
+ssilka1.onclick = function(){
+	menu2.style.display = "none";
+	open2.style.display = "block";
+	line1.style.display = "none";
+}
+ssilka2.onclick = function(){
+	menu2.style.display = "none";
+	open2.style.display = "block";
+	line1.style.display = "none";
+} 
+ssilka3.onclick = function(){
+	menu2.style.display = "none";
+	open2.style.display = "block";
+	line1.style.display = "none";
+} 
+ssilka4.onclick = function(){
+	menu2.style.display = "none";
+	open2.style.display = "block";
+	line1.style.display = "none";
+}
+ssilka5.onclick = function(){
+	menu2.style.display = "none";
+	open2.style.display = "block";
+	line1.style.display = "none";
+}
+ssilka6.onclick = function(){
+	menu2.style.display = "none";
+	open2.style.display = "block";
+	line1.style.display = "none";
+}
+
+
