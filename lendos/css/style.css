@@ -6,10 +6,12 @@ body{
 /* 1 блок */
 .container{
 	max-width: 2460px;
-	
 }
-a{
-	color: #69BAC4;
+.row1 p{
+	/*width: 557px;*/
+}
+.row2 p{
+	/*width: 557px;*/
 }
 .mobile1{
 	display: none;
@@ -22,6 +24,21 @@ a{
 	height: 1080px;
 	background: #69BAC4;
 }
+/*#link1:hover{
+	background: url("../img/addi-menu.png") repeat center top;
+}
+#link2:hover{
+	background: url("../img/Nike.jpg") repeat center top;
+}
+#link3:hover{
+	background: url("../img/reebok.jpg") repeat center top;
+}
+#link4:hover{
+	background: url("../img/puma.jpg") repeat center top;
+}
+#link5:hover{
+	background: url("../img/new.jpg") repeat center top;
+}*/
 .menu2{
 	background: url("../img/addi-menu.png") repeat center top;
 	width: 100%;
@@ -97,12 +114,8 @@ a{
 .number{
 	font-size: 24px;
 	padding-right: 26px;
-	color: #fff;
+	padding-top: 16px;
 }
-.number-menu a{
-	text-decoration: none;
-}
-
 .num{
 	position: static;
 	padding-top: 64px;
@@ -153,6 +166,9 @@ a{
 .projects a{
 	text-decoration: none;
 }
+.projects a:hover{
+	color: #69BAC4;
+}
 .about{
 	position: fixed;
 	/*top: 900px;*/
@@ -166,6 +182,9 @@ a{
 }
 .proekt a{
 	text-decoration: none;
+}
+.proekt a:hover{
+	color: #69BAC4;
 }
 .about-text{
 	padding-left: 65px;
@@ -501,6 +520,10 @@ a{
 	font-size: 24px;
 	color: #69BAC4;
 }
+a{
+	color: #69BAC4;
+	text-decoration: none;
+}
 /*блок 8*/
 .forma{
 	text-align: center;
@@ -541,6 +564,7 @@ a{
 	color: #101120;
 	text-align: center;
 	padding: 26px;
+	text-decoration: none;
 }
 /*media запросы*/
 @media screen and (min-width: 761px) and (max-width: 901px){
@@ -837,21 +861,21 @@ a{
 		margin-left: 36px;
 	}
 	.forma input{
-	background-color: transparent;
-	color: #fff;
-	width: 344px;
-	height: 46px;
-	padding: 10px;
-	margin-bottom: 15px;
+		background-color: transparent;
+		color: #fff;
+		width: 344px;
+		height: 46px;
+		padding: 10px;
+		margin-bottom: 15px;
 	}
 	.forma{
-	text-align: center;
-	padding-top: 60px;
-	/*background: url("../img/forma.png") no-repeat center top;*/
-	width: 94%;
-	border: 1.1px solid 	;
-	height: 472px;
-	padding-bottom: 100px;
+		text-align: center;
+		padding-top: 60px;
+		/*background: url("../img/forma.png") no-repeat center top;*/
+		width: 94%;
+		border: 1.1px solid 	;
+		height: 472px;
+		padding-bottom: 100px;
 	}
 	.addidos-text{
 		padding-bottom: 0;
@@ -897,6 +921,9 @@ a{
 	.text-group{
 		padding-left: 26%;
 		padding-top: 100px;
+	}
+	.strelka{
+
 	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px){
@@ -999,25 +1026,81 @@ a{
 	.uznat4{
 		padding-left: 1000px;
 	}
+	.uznat3{
+		padding-left: 200px;
+	}
 	.addidos-text p{
 		padding-bottom: 16px;
 	}
 	.text-group{
-		padding-left: 370px;
+		padding-left: 300px;
+		padding-top: 60px;
 	}
 	.leaders{
 		margin-left: 100px;
 	}
+	.montaz{
+		padding-left: 330px;
+	}
 	.addis{
-		padding-top: 240px;
+		padding-top: 80px;
 	}
 	.strelka18{
 		position: absolute;
 		top: 100px;
 	}
+	.strelka{
+		position: absolute;
+		top: 80px;
+	}
 	.strelka17{
 		position: absolute;
 		top: 150px;
+	}
+	.strelka-addidas{
+		position: absolute;
+		top: 65px;	
+	}
+	.strelka9{
+		position: absolute;
+		top: 0px;
+	}
+	.strelka-montaz{
+		position: absolute;
+		top: 65px;
+	}
+	.strelka11{
+		position: absolute;
+		top: 135px;
+	}
+	.row1 p{
+		width: 557px;
+	}
+	.row2 p{
+		width: 557px;
+	}
+	.coll1{
+		padding-bottom: 100px;
+		/*padding-left: 20%;*/
+	}
+	.coll2{
+		padding-top: 100px;
+		/*padding-left: 20%;*/
+	}
+	.two-col{
+		padding-left: 40px;
+	}
+	.four-col{
+		padding-left: 40px;
+	}
+	.one-col{
+		padding-right: 20px;
+	}
+	.three-col{
+		padding-right: 20px;
+	}
+	.strelka17{
+		padding-top: 100px;
 	}
 }
 @media screen and (min-width: 567px) and (max-width: 760px){
@@ -1076,6 +1159,9 @@ a{
 	}
 	.uznat1{
 		padding-left: 100px;
+	}
+	.row1{
+		margin-left: 100px;
 	}
 	.call input{
 	border: 1.1px solid #69BAC4;
@@ -1241,6 +1327,9 @@ a{
 		padding-right: 31%;
 		top: 10px;	
 	}
+	.ld-text{
+		width: 90%;
+	}
 	.logotype{
 		flex-direction: column;
 		padding-left: 6px;
@@ -1257,13 +1346,19 @@ a{
 	.about{
 		position: absolute;
 		bottom: 0;
-		left: 0.5%;
+		right: 4%;
 	}
 	.projects{
 		bottom: 12%;
 		left: 11%;
 		display: none;
 		
+	}
+	.forma p{
+		display: none;
+	}
+	.leaders h1{
+		font-size: 16px;
 	}
 	.strelka18{
 		display: none;
@@ -1390,19 +1485,24 @@ a{
 	}
 	.leaders{
 	padding-top: 100px;
-	width: 629px;
-	margin-left: 0px;
+	width: 90%;
+	margin-left: 30px;
+	text-align: center;
+	
+	}
+	.leadrs{
+		width: 90%;
 	}
 	.menu3{
 		padding-top: 150px;
 	}
 	.lead{
-		width: 90%;
-		padding-top: 300px;
+		display: none;
+		
 	}
 	.formaa{
 		margin-left: 16px;
-		padding-top: 50px;
+		padding-top: 65px;
 		padding-bottom: 85px;
 	}
 	.forma input{
@@ -1444,7 +1544,7 @@ a{
 	/*background: url("../img/forma.png") no-repeat center top;*/
 	width: 90%;
 	border: 1.1px solid #69BAC4;
-	height: 382px;
+	height: 200px;
 	}
 	.form-b a{
 	display: block;
@@ -1452,10 +1552,11 @@ a{
 	text-transform: uppercase;
 	color: #101120;
 	text-align: center;
-	padding: 16px;
+	padding: 18px;
 	}
 	.uznat3{
 		padding-left: 270px;
+		padding-bottom: 50px;
 	}
 	.one-row{
 		flex-direction: column;
@@ -1630,12 +1731,28 @@ a{
 	}
 	.row-stol{
 		padding-top: 0px;
-		padding-bottom: 30px;
+		padding-bottom: 0px;
 	}
 	.leaders{
 		padding-left: 8px;
 	}
 	.srochniy{
 		margin-top: 0;
+	}
+	.one-col{
+		display: none;
+		
+	}
+	.three-col{
+		display: none;
+		
+	}
+	.strelka-montaz{
+		display: none;
+		
+	}
+	.strelka-addidas{
+		display: none;
+		
 	}
 }
