@@ -11,6 +11,12 @@ body{
 a{
 	color: #69BAC4;
 }
+.mobile1{
+	display: none;
+}
+.mobile2{
+	display: none;
+}
 .menu-left{
 	width: 564px;
 	height: 1080px;
@@ -1232,21 +1238,25 @@ a{
 	.number-menu{
 		flex-direction: column;
 		left: 130px;
-		padding-right: 30%;	
+		padding-right: 31%;
+		top: 10px;	
 	}
 	.logotype{
 		flex-direction: column;
-		padding-left: 26px;
+		padding-left: 6px;
+		top: 10px;
 	}
 	.number{
-		font-size: 16px;
+		font-size: 12px;
 	}
 	.circles{
 		flex-direction: column;
-		padding-left: 25%;
+		padding-left: 12%;
+		padding-top: 80px;
 	}
 	.about{
-		bottom: 5%;
+		bottom: 7%;
+		left: 0.5%;
 	}
 	.projects{
 		bottom: 1%;
@@ -1362,7 +1372,7 @@ a{
 	}
 	.stol-img{
 		width: 70%;
-		margin-left: 100px;
+		margin-left: 50px;
 	}
 	.abb{
 		flex-direction: column;
@@ -1387,23 +1397,53 @@ a{
 		padding-top: 300px;
 	}
 	.formaa{
-		margin-left: 36px;
+		margin-left: 16px;
+		padding-top: 50px;
 	}
 	.forma input{
 	background-color: transparent;
 	color: #fff;
-	width: 284px;
-	height: 38px;
-	padding: 10px;
-	margin-bottom: 15px;
+	width: 184px;
+	height: 34px;
+	padding: 8px;
+	margin-bottom: 5px;
+	}
+	.formaa h1{
+		font-size: 14px;
+	}
+	.form-uslovia{
+		padding-bottom: 0;
+	}
+	.formaa p{
+		font-size: 12px;
+	}
+	.first{
+		margin-top: 10px;
+	}
+	.menu3 a{
+		font-size: 24px;
+		padding: 10px;
+	}
+	.menu3{
+		padding-top: 75px;
+	}
+	.ld-text{
+		margin-bottom: 0;
 	}
 	.forma{
 	text-align: center;
 	/*background: url("../img/forma.png") no-repeat center top;*/
 	width: 90%;
 	border: 1.1px solid #69BAC4;
-	height: 472px;
-	padding-bottom: 100px;
+	height: 452px;
+	}
+	.form-b a{
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #101120;
+	text-align: center;
+	padding: 16px;
 	}
 	.uznat3{
 		padding-left: 270px;
@@ -1422,29 +1462,29 @@ a{
 	.col1 p{
 		max-height: 150px;
 	}
-	.form-b{
-		height: 100%;
-	}
 	.menu3 a{
 
 	}
 	.col1{
-	width: 355px;
+	width: 300px;
 	height: 150px;
 	margin-bottom: 45px;
 	}
 	.col2{
-	width: 345px;
+	width: 300px;
 	height: 135px;
 	margin-bottom: 30px;
 	}
 	.col3{
-	width: 355px;
+	width: 300px;
 	height: 150px;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
+	}
+	.blue-titl{
+		font-size: 14px;
 	}
 	.col4{
-	width: 345px;
+	width: 300px;
 	height: 135px;
 	margin-bottom: 30px;
 	}
@@ -1454,5 +1494,134 @@ a{
 	}
 	.vector{
 		background: none;
+	}
+	.cirkl{
+		width: 50px;
+	}
+	.box-01 p{
+		font-size: 12px;
+	}
+	.box-02 p{
+		font-size: 12px;
+	}
+	.box-03 p{
+		font-size: 12px;
+	}
+	.addis{
+		display: none;
+	}
+	.mobile1{
+		display: block;
+		padding-top: 0px;
+	}
+	.addidas-title2 h1{
+		font-size: 14px;
+	}
+	.blue-titl{
+		font-size: 12px;
+	}
+	.addidos-text p{
+		font-size: 12px;
+		padding: 0;
+		margin-bottom: 0;
+	}
+	.call-text{
+		display: none;
+		
+	}
+	.call{
+		padding-top: 90px;
+	}
+	#call{
+		font-size: 14px;
+	}
+	.call input{
+	border: 1.1px solid #69BAC4;
+	background-color: transparent;
+	color: #fff;
+	width: 210px;
+	height: 35px;
+	padding: 4px;
+	margin-bottom: 25px;
+	}
+	.obsudit{
+		width: 100px;
+		height: 50px;
+	}
+	.obsudit a{
+		font-size: 12px;
+		padding: 0;
+		padding-left: 12px;
+		padding-top: 10px;
+	}
+	.maket{
+		width: 100px;
+		height: 50px;
+	}
+	.maket a{
+		font-size: 12px;
+		padding: 0;
+		padding-left: 10px;
+		padding-top: 6px;
+	}
+	.printer{
+		display: none;
+	}
+	.mobile2{
+		display: block;
+		padding-top: 0px;
+	}
+	.shiroko{
+		font-size: 14px;
+	}
+	.print-text{
+		padding-top: 0;
+	}
+	.print-text p{
+		padding-bottom: 0;
+		padding-top: 0;
+		margin: 0;
+	}
+	.montaz-line{
+		flex-direction: column;
+	}
+	.montaz h1{
+		font-size: 14px;
+	}
+	.montaz p{
+		font-size: 12px;
+		padding: 3;
+		margin: 0;
+	}
+	.crkl{
+		width: 40px;
+	}
+	.text-group{
+		padding-left: 0px;
+	}
+	.stol-text h1{
+		font-size: 14px;
+	}
+	.strelka11{
+		display: none;
+	}
+	.stol-text p{
+		font-size: 12px;
+		width: 300px;
+	}
+	.uznat3{
+		padding-left: 50px;
+	}
+	.strelka{
+		display: none;
+	}
+	.stol-text{
+		padding-top: 8px;
+	}
+	.row-stol{
+		padding-top: 40px;
+	}
+	.leaders{
+		padding-left: 8px;
 	}
 }
