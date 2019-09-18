@@ -1255,11 +1255,12 @@ a{
 		padding-top: 80px;
 	}
 	.about{
-		right: 15px;
-		bottom: 1px;
+		position: absolute;
+		bottom: 0;
+		left: 0.5%;
 	}
 	.projects{
-		bottom: 10%;
+		bottom: 12%;
 		left: 11%;
 		display: none;
 		
@@ -1466,6 +1467,7 @@ a{
 	.two-row{
 		flex-direction: column;
 		text-align: center;
+		padding-bottom: 0;
 	}
 	.col1 p{
 		max-height: 150px;
