@@ -30,6 +30,9 @@ option{
 	в "Вид работ"
 	*/
 }
+.left-arrow{
+	margin-right: 22px;
+}
 /* 1 блок */
 .container{
 	max-width: 2460px;
@@ -950,9 +953,10 @@ a{
 		padding-top: 120px;
 	}
 	.uznat4{
-		padding-left: 1000px;
+		padding-left: 965px;
 	}
 	.uznat3{
+		padding-top: 14px;
 		padding-left: 200px;
 	}
 	.addidos-text p{
@@ -1594,5 +1598,13 @@ a{
 	}
 	.three-col{
 		display: none;	
+	}
+	label{
+	width: 100%;
+	}
+	/*Поле комментария в форме*/
+	textarea{
+	max-height: 200px;
+	width: 100%;
 	}
 }
