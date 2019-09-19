@@ -480,8 +480,9 @@ a{
 .forma{
 	text-align: center;
 	width: 1434px;
-	border: 1.1px solid #69BAC4;
-	height: 412px;
+	/*border: 1.1px solid #69BAC4;*/
+	background: url("../img/ramka.png") no-repeat center top;
+	height: 440px;
 	padding-bottom: 200px;
 }
 .forma input{
@@ -498,6 +499,7 @@ a{
 }
 .form-uslovia{
 	font-size: 24px;
+	padding-top: 40px;
 }
 .form-b{
 	background: url("../img/form-b.png") no-repeat center top;
@@ -511,11 +513,70 @@ a{
 	padding: 26px;
 	text-decoration: none;
 }
+/*блок 11*/
+.contacts{
+	padding-left: 10%;
+}
+.contacts a{
+	text-decoration: none;
+	color: #fff;
+}
+.map{
+	position: relative;
+	left: 50px;
+	top: 50px;
+	width: 956px;
+	height: 461px;
+}
+.contacts p{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.map-box{
+	background: url("../img/map.png") no-repeat center top;
+	width: 1050px;
+	height: 560px;
+	position: absolute;
+}
+.telega{
+	margin-right: 30px;
+	margin-left: 5px;
+}
+.contacts-numbers{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.soc{
+	padding-bottom: 20px;
+}
+.adress{
+	padding-bottom: 20px;
+}
+.post{
+	padding-bottom: 20px;
+}
+.wats{
+	margin-left: 5px;
+}
+.contacts a{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.facebook{
+	margin-right: 15px;
+}
 /*media запросы*/
 @media screen and (min-width: 761px) and (max-width: 901px){
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
+	}
+	.forma{
+		background: none;
+		border: 1.1px solid #69BAC4;
 	}
 	.main-img img{
 		width: 80%;
@@ -711,6 +772,10 @@ a{
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
+	}
+	.forma{
+		background: none;
+		border: 1.1px solid #69BAC4;
 	}
 	.main-img img{
 		width: 80%;
@@ -941,16 +1006,31 @@ a{
 		padding-left: 100px;
 		margin-bottom: 80px;
 	}
+	.forma{
+		background: none;
+		border: 1.1px solid #69BAC4;
+	}
+
 }
 @media screen and (min-width: 1441px) and (max-width: 1580px){
 	.text-group{
 		margin-left: 10%;
 		padding-left: 0;
 	}
+	.forma{
+		background: none;
+		border: 1.1px solid #69BAC4;
+	}
 }
 @media screen and (min-width: 1441px){
 	.addidos-text{
 		padding-top: 120px;
+	}
+	.form-b a{
+		padding-bottom: 20px;
+		display: block;
+		padding-top: 24px;
+		
 	}
 	.uznat4{
 		padding-left: 965px;
@@ -1003,11 +1083,22 @@ a{
 	.three-col{
 		padding-right: 20px;
 	}
+	.about{
+		bottom: 3%;
+	}
+	.projects{
+		bottom: 3%;
+	}
+	.
 }
 @media screen and (min-width: 567px) and (max-width: 760px){
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
+	}
+	.forma{
+		background: none;
+		border: 1.1px solid #69BAC4;
 	}
 	.main-img img{
 		width: 80%;
@@ -1205,6 +1296,10 @@ a{
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
+	}
+	.forma{
+		background: none;
+		border: 1.1px solid #69BAC4;
 	}
 	.main-img img{
 		width: 80%;
@@ -1606,5 +1701,59 @@ a{
 	textarea{
 	max-height: 200px;
 	width: 100%;
+	}
+}
+@media screen and (max-width: 1600px){
+	.map-box{
+	background: none;
+	}
+	.map{
+		width: 80%;
+		left: 0;
+	}
+}
+@media screen and (max-width: 1000px){
+	.map-box{
+	background: none;
+	left: 0;
+	}
+	.map{
+		width: 100%;
+
+	}
+	.contacts{
+		padding-top: 100px;
+	}
+	.mapp{
+		margin-bottom: 400px;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+	.bottom-map{
+		height: 300px;
+		
+	}
+	.telega{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.contacts-numbers{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.soc{
+		padding-bottom: 0px;
+	}
+	.adress{
+		padding-bottom: 0px;
+	}
+	.post{
+		padding-bottom: 0px;
+	}
+	.wats{
+		margin-left: 0px;
+	}
+	.contacts h1{
+		font-size: 14px;
 	}
 }
