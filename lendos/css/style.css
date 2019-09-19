@@ -17,6 +17,19 @@ label{
 textarea{
 	max-height: 200px;
 }
+.select{
+	width: 612px;
+	height: 48px;
+	border: 1.1px solid #69BAC4; 
+	background: transparent;
+	color: grey;
+	margin-bottom: 20px;
+}
+option{
+	/*Тут изменять фон пунктов
+	в "Вид работ"
+	*/
+}
 /* 1 блок */
 .container{
 	max-width: 2460px;
