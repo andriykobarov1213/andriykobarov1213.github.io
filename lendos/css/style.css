@@ -30,6 +30,9 @@ option{
 	в "Вид работ"
 	*/
 }
+.next i{
+	cursor: pointer;
+}
 .left-arrow{
 	margin-right: 22px;
 }
@@ -1030,7 +1033,6 @@ a{
 		padding-bottom: 20px;
 		display: block;
 		padding-top: 24px;
-		
 	}
 	.uznat4{
 		padding-left: 965px;
