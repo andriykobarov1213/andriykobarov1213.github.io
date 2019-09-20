@@ -19,6 +19,10 @@ var link3 = document.getElementById("link3");
 var link4 = document.getElementById("link4");
 var link5 = document.getElementById("link5");
 
+var out = document.getElementById("out");
+var next = document.getElementById("next");
+var text = "<img id='out' class='test' src='img/Nike.jpg'>";
+
 
 link1.onmouseover = function(){
 	menu.style.backgroundImage = 'url(img/addi-menu.png)'
@@ -85,4 +89,101 @@ ssilka6.onclick = function(){
 	line1.style.display = "none";
 }
 
+// слайдер1
 
+var slide1 = document.getElementById("slide1");
+var slide2 = document.getElementById("slide2");
+var slide3 = document.getElementById("slide3");
+var slide4 = document.getElementById("slide4");
+var slide5 = document.getElementById("slide5");
+var slide6 = document.getElementById("slide6");
+var polosa = document.getElementById('polosa');
+var left = 0;
+
+slide1.style.color="#69BAC4";
+
+function f1(){
+	left = 0;
+	polosa.style.left = left +'px';
+	slide1.style.color="#69BAC4";
+	slide2.style.color="#fff";
+	slide3.style.color="#fff";
+	slide4.style.color="#fff";
+	slide5.style.color="#fff";
+	slide6.style.color="#fff";
+}
+function f2(){
+	left = -808;
+	polosa.style.left = left +'px';
+	slide2.style.color="#69BAC4";
+	slide1.style.color="#fff";
+	slide3.style.color="#fff";
+	slide4.style.color="#fff";
+	slide5.style.color="#fff";
+	slide6.style.color="#fff";
+}
+function f3(){
+	left = -1616;
+	polosa.style.left = left +'px';
+	slide3.style.color="#69BAC4";
+	slide1.style.color="#fff";
+	slide2.style.color="#fff";
+	slide4.style.color="#fff";
+	slide5.style.color="#fff";
+	slide6.style.color="#fff";
+}
+function f4(){
+	left = -2424;
+	polosa.style.left = left +'px';
+	slide4.style.color="#69BAC4";
+	slide2.style.color="#fff";
+	slide3.style.color="#fff";
+	slide1.style.color="#fff";
+	slide5.style.color="#fff";
+	slide6.style.color="#fff";
+}
+function f5(){
+	left = -3232;
+	polosa.style.left = left +'px';
+	slide5.style.color="#69BAC4";
+	slide2.style.color="#fff";
+	slide3.style.color="#fff";
+	slide4.style.color="#fff";
+	slide1.style.color="#fff";
+	slide6.style.color="#fff";
+}
+function f6(){
+	left = -4040;
+	polosa.style.left = left +'px';
+	slide6.style.color="#69BAC4";
+	slide2.style.color="#fff";
+	slide3.style.color="#fff";
+	slide4.style.color="#fff";
+	slide5.style.color="#fff";
+	slide1.style.color="#fff";
+}
+// document.getElementById('slide1').onclick = sliderLeft1;
+// var left = 0;
+
+// function sliderLeft1(){
+// 	var polosa = document.getElementById('polosa');
+// 	left = left - 808;
+// 	if (left < -2424) {
+// 		left = 0;
+// 	}
+// 	polosa.style.left = left +'px';
+// }
+
+
+// document.getElementById('slider-left').onclick = sliderLeft;
+// var left = 0;
+
+// function sliderLeft(){
+// 	var polosa = document.getElementById('polosa');
+// 	left = left - 808;
+// 	if (left < -2424) {
+// 		left = 0;
+// 	}
+// 	polosa.style.left = left +'px';
+// }
+// слайдер2

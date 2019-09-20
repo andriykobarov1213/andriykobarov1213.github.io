@@ -10,6 +10,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
 	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 	<script src="https://use.fontawesome.com/baf25ef2c6.js"></script>
 	<link rel="stylesheet" href="css/style.css">
@@ -55,21 +56,35 @@
 						<h1>КАЧЕСТВЕННАЯ НАРУЖНАЯ РЕКЛАМА</h1>
 						<p class="blue-titl">реальная завка на победу в гонке сильнейших</p>
 					</div>
+					<!-- <img id="out" class="test" src="img/addid.png" alt=""> -->
+					<div id="slider">
+						<div id="polosa">
+							<img src="img-slider1/addid.png" alt="">
+							<img src="img-slider1/pechat1.jpg" alt="">
+							<img src="img-slider1/pechat2.jpg" alt="">
+							<img src="img-slider1/pechat3.jpg" alt="">
+							<img src="img-slider1/pechat3.jpg" alt="">
+							<img src="img-slider1/pechat3.jpg" alt="">
+						</div>
+					</div>
+					
 					<div class="prints d-flex">
+						
 						<i>
 						<img class="ad01" src="img/01ad.png" alt="">
 						</i>
-						<i><img class="img-addidas" src="img/addidas.png" alt=""></i>
+						<i><img  class="img-addidas" src="img/addidas.png" alt=""></i>
 						<div class="addidos-text">
-							<p class="blue-text">Обьемные буквы</p>
-							<p>Крышные установки и стеллы</p>
-							<p>Вывески и торцевики</p>
-							<p>Ростовые фигуры и штендеры</p>
-							<p>Лайтбоксы</p>
-							<p>Выставочные стенды, таблички и конструкции</p>
+							<p onclick="f1()" id="slide1" >Обьемные буквы</p>
+							<p onclick="f2()" id="slide2" >Крышные установки и стеллы</p>
+							<p onclick="f3()" id="slide3" >Вывески и торцевики</p>
+							<p onclick="f4()" id="slide4" >Ростовые фигуры и штендеры</p>
+							<p onclick="f5()" id="slide5" >Лайтбоксы</p>
+							<p onclick="f6()" id="slide6" >Выставочные стенды, таблички и конструкции</p>
 						</div>
 					</div>
-					<a class="uznat1" href="">Узнать больше <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+					<p id="slider-left">Узнать больше</p>
+					<!-- <a id="next" class="uznat1" href="#">Узнать больше <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> -->
 				</div>
 				<div class="row mobile1">
 					<div class="col-12">
@@ -138,6 +153,14 @@
 						<p class="blue-titl">чернилами, устойчивыми к УФ-излучению</p>
 					</div>
 					<div class="prints d-flex">
+						<div id="slider2">
+						<div id="polosa2">
+							<img src="img-slider1/addid.png" alt="">
+							<img src="img-slider1/pechat1.jpg" alt="">
+							<img src="img-slider1/pechat2.jpg" alt="">
+							<img src="img-slider1/pechat3.jpg" alt="">
+						</div>
+					</div>
 						<i>
 						<img class="pr02" src="img/02pr.png" alt="">
 						</i>
@@ -150,7 +173,8 @@
 							<p>Оформление витрин и торгового оборудования</p>
 						</div>
 					</div>
-					<a class="uznat2" href="">Узнать больше <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+					<p id="slider-left2">Узнать больше</p>
+					<!-- <a class="uznat2" href="">Узнать больше <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> -->
 				</div>
 			<div class="row mobile2">
 				<div class="col-12">
@@ -356,6 +380,7 @@
 						</a>
 						</div>
 					</div>
+
 					<div class="col-lg-8 mapp">
 						<div class="map-box">
 							<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.442670498969!2d35.179163934095186!3d47.811638515549404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc5e7320d41467%3A0x4601df53890e690f!2z0LLRg9C70LjRhtGPINCi0YDQvtGX0YbRjNC60LAsIDIzLCAxMiwg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjkwNjE!5e0!3m2!1sru!2sua!4v1568889877378!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -423,6 +448,8 @@
 		</div>
 		</div>
 	</div>
+	<script src="js/jquery-3.4.1.min.js"></script>
+
 	<script type="text/javascript" src="js/fullpage.js"></script>
 	<script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
