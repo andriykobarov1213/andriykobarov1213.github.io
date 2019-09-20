@@ -636,6 +636,27 @@ a{
 		padding-bottom: 50px;
 		padding-top: 150px;
 	}
+	#slider{
+		width: 450px;
+		height: 250px;
+		left: 40px;
+	}
+	#slider2{
+		width: 500px;
+		height: 280px;
+		left: 30px;
+	}
+	.comment{
+		width: 150px;
+	}
+	.select{
+		width: 150px;
+	}
+	label{
+		font-size: 14px;
+		padding-left: 24px;
+		padding-top: 18px;
+	}
 	.forma{
 		background: none;
 		border: 1.1px solid #69BAC4;
@@ -933,7 +954,7 @@ a{
 		text-align: center;
 		padding-top: 60px;
 		width: 94%;
-		border: 1.1px solid 	;
+		border: 1.1px solid ;
 		height: 472px;
 		padding-bottom: 100px;
 	}
@@ -982,7 +1003,29 @@ a{
 		padding-left: 26%;
 		padding-top: 100px;
 	}
+	#slider{
+		width: 570px;
+		height: 340px;
+		left: 100px;
+	}
+	#slider2{
+		width: 500px;
+		height: 320px;
+		left: 40px;
+	}
 }
+@media screen and (min-width: 903px) and (max-width: 1024px){
+	#slider{
+		width: 520px;
+		height: 300px;
+		left: 40px;
+	}
+	#slider2{
+		width: 440px;
+		height: 320px;
+		left: 30px;
+	}
+} 
 @media screen and (min-width: 1200px) and (max-width: 1440px){
 	.uznat4{
 		padding-left: 700px;
@@ -1072,6 +1115,15 @@ a{
 		background: none;
 		border: 1.1px solid #69BAC4;
 	}
+	#slider{
+		width: 670px;
+		height: 380px;
+	}
+	#slider2{
+		width: 530px;
+		height: 380px;
+	}
+
 
 }
 @media screen and (min-width: 1441px) and (max-width: 1580px){
@@ -1156,6 +1208,27 @@ a{
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
+	}
+	#slider{
+		width: 450px;
+		height: 250px;
+		left: 40px;
+	}
+	#slider2{
+		width: 500px;
+		height: 280px;
+		left: 30px;
+	}
+	.comment{
+		width: 150px;
+	}
+	.select{
+		width: 150px;
+	}
+	label{
+		font-size: 14px;
+		padding-left: 24px;
+		padding-top: 18px;
 	}
 	.forma{
 		background: none;
@@ -1357,6 +1430,27 @@ a{
 	.main-img{
 		padding-bottom: 50px;
 		padding-top: 150px;
+	}
+	#slider{
+		width: 450px;
+		height: 250px;
+		left: 40px;
+	}
+	#slider2{
+		width: 500px;
+		height: 280px;
+		left: 30px;
+	}
+	.comment{
+		width: 150px;
+	}
+	.select{
+		width: 150px;
+	}
+	label{
+		font-size: 14px;
+		padding-left: 24px;
+		padding-top: 18px;
 	}
 	.forma{
 		background: none;
