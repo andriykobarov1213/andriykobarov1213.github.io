@@ -162,6 +162,67 @@ function f6(){
 	slide5.style.color="#fff";
 	slide1.style.color="#fff";
 }
+function auto(){
+
+	left = left - 808;
+	polosa.style.left = left +'px';
+	// if (left < -4040) {
+	// 	left = 808;
+	// }
+	if (left == 0) {
+		slide1.style.color="#69BAC4";
+		slide2.style.color="#fff";
+		slide3.style.color="#fff";
+		slide4.style.color="#fff";
+		slide5.style.color="#fff";
+		slide6.style.color="#fff";
+	}
+	if (left == -808) {
+		slide2.style.color="#69BAC4";
+		slide1.style.color="#fff";
+		slide3.style.color="#fff";
+		slide4.style.color="#fff";
+		slide5.style.color="#fff";
+		slide6.style.color="#fff";
+	}
+	if (left == -1616) {
+		slide3.style.color="#69BAC4";
+		slide1.style.color="#fff";
+		slide2.style.color="#fff";
+		slide4.style.color="#fff";
+		slide5.style.color="#fff";
+		slide6.style.color="#fff";
+	}
+	if (left == -2424) {
+		slide4.style.color="#69BAC4";
+		slide2.style.color="#fff";
+		slide3.style.color="#fff";
+		slide1.style.color="#fff";
+		slide5.style.color="#fff";
+		slide6.style.color="#fff";
+	}
+	if (left == -3232) {
+		slide5.style.color="#69BAC4";
+		slide2.style.color="#fff";
+		slide3.style.color="#fff";
+		slide4.style.color="#fff";
+		slide1.style.color="#fff";
+		slide6.style.color="#fff";
+	}
+	if(left == -4040){
+		// left = 0;
+		polosa.style.left = left +'px';
+		slide6.style.color="#69BAC4";
+		slide2.style.color="#fff";
+		slide3.style.color="#fff";
+		slide4.style.color="#fff";
+		slide5.style.color="#fff";
+		slide1.style.color="#fff";
+		left = 808;
+	}
+	
+}
+setInterval(auto,5000)
 // document.getElementById('slide1').onclick = sliderLeft1;
 // var left = 0;
 
