@@ -1,8 +1,8 @@
 // Таймер прокрутки слайдера 1
-setInterval(auto,10000);
+setInterval(auto,10000); //1000 - секунда
 //----------------------------
 // Таймер прокрутки слайдера 2
-setInterval(auto2,10000);
+setInterval(auto2,10000);// 1000 - секунда
 //----------------------------
 
 
@@ -27,9 +27,9 @@ var link3 = document.getElementById("link3");
 var link4 = document.getElementById("link4");
 var link5 = document.getElementById("link5");
 
+// Тут можна изменить картинку меню2
 link1.onmouseover = function(){
 	menu.style.backgroundImage = 'url(img/addi-menu.png)'
-
 }
 link2.onmouseover = function(){
 	menu.style.backgroundImage = 'url(img/Nike.jpg)'
@@ -43,6 +43,7 @@ link4.onmouseover = function(){
 link5.onmouseover = function(){
 	menu.style.backgroundImage = 'url(img/new.jpg)'
 }
+//---------------------------------------
 
 open.onclick = function(){
 	menu.style.display = "block";
@@ -168,17 +169,11 @@ function f6(){
 	slide1.style.color="#fff";
 }
 
-// слайдер 2
-
-
 
 function auto(){
 
 	left = left - 808;
 	polosa.style.left = left +'px';
-	// if (left < -4040) {
-	// 	left = 808;
-	// }
 	if (left == 0) {
 		slide1.style.color="#69BAC4";
 		slide2.style.color="#fff";
@@ -232,33 +227,8 @@ function auto(){
 	}
 	
 }
-// setInterval(auto,5000)
-// document.getElementById('slide1').onclick = sliderLeft1;
-// var left = 0;
 
-// function sliderLeft1(){
-// 	var polosa = document.getElementById('polosa');
-// 	left = left - 808;
-// 	if (left < -2424) {
-// 		left = 0;
-// 	}
-// 	polosa.style.left = left +'px';
-// }
-
-
-// document.getElementById('slider-left').onclick = sliderLeft;
-// var left = 0;
-
-// function sliderLeft(){
-// 	var polosa = document.getElementById('polosa');
-// 	left = left - 808;
-// 	if (left < -2424) {
-// 		left = 0;
-// 	}
-// 	polosa.style.left = left +'px';
-// }
-
-// слайдер 2
+// Cлайдер 2
 
 var sl22 = document.getElementById("slider-left2");
 
@@ -323,9 +293,6 @@ function fun5(){
 function auto2 () {
 	left2 = left2 - 808;
 	polos.style.left = left2 +'px';
-	// if (left2 < -4040) {
-	// 	left2 = 808;
-	// }
 	if (left2 == 0) {
 		slides1.style.color="#69BAC4";
 		slides2.style.color="#fff";
@@ -362,33 +329,4 @@ function auto2 () {
 		slides1.style.color="#fff";
 		left2 = 808;
 	}
-	// if(left2 == -3232){
-	// 	// left = 0;
-	// 	polosa.style.left = left2 +'px';
-	// 	slide6.style.color="#69BAC4";
-	// 	slide2.style.color="#fff";
-	// 	slide3.style.color="#fff";
-	// 	slide4.style.color="#fff";
-	// 	slide5.style.color="#fff";
-	// 	slide1.style.color="#fff";
-	// 	left = 808;
-	// }
-}
-
-sl22.onclick = function sl2(){
-	
-	left = 0;
-	left = left - 808;
-	polos.style.left= left + "px";
-// var left2 = 0;
-
-// function sliderLeft2(){
-// 	var polosa2 = document.getElementById('polosa2');
-// 	left2 = left2 - 808;
-// 	if (left2 < -2424) {
-// 		left2 = 0;
-// 	}
-// 	polosa2.style.left2 = left2 +'px';
-	
-// }
 }
