@@ -1,3 +1,11 @@
+// Таймер прокрутки слайдера 1
+setInterval(auto,10000);
+//----------------------------
+// Таймер прокрутки слайдера 2
+setInterval(auto2,10000);
+//----------------------------
+
+
 var open = document.getElementById("open");
 var open2 = document.getElementById("open2");
 var close = document.getElementById("close");
@@ -18,11 +26,6 @@ var link2 = document.getElementById("link2");
 var link3 = document.getElementById("link3");
 var link4 = document.getElementById("link4");
 var link5 = document.getElementById("link5");
-
-var out = document.getElementById("out");
-var next = document.getElementById("next");
-var text = "<img id='out' class='test' src='img/Nike.jpg'>";
-
 
 link1.onmouseover = function(){
 	menu.style.backgroundImage = 'url(img/addi-menu.png)'
@@ -97,7 +100,9 @@ var slide3 = document.getElementById("slide3");
 var slide4 = document.getElementById("slide4");
 var slide5 = document.getElementById("slide5");
 var slide6 = document.getElementById("slide6");
+
 var polosa = document.getElementById('polosa');
+
 var left = 0;
 
 slide1.style.color="#69BAC4";
@@ -162,6 +167,11 @@ function f6(){
 	slide5.style.color="#fff";
 	slide1.style.color="#fff";
 }
+
+// слайдер 2
+
+
+
 function auto(){
 
 	left = left - 808;
@@ -222,7 +232,7 @@ function auto(){
 	}
 	
 }
-setInterval(auto,5000)
+// setInterval(auto,5000)
 // document.getElementById('slide1').onclick = sliderLeft1;
 // var left = 0;
 
@@ -247,4 +257,138 @@ setInterval(auto,5000)
 // 	}
 // 	polosa.style.left = left +'px';
 // }
-// слайдер2
+
+// слайдер 2
+
+var sl22 = document.getElementById("slider-left2");
+
+var slides1 = document.getElementById("slides1");
+var slides2 = document.getElementById("slides2");
+var slides3 = document.getElementById("slides3");
+var slides4 = document.getElementById("slides4");
+var slides5 = document.getElementById("slides5");
+
+var polos = document.getElementById("polosa2");
+
+var left2 = 0;
+
+slides1.style.color="#69BAC4";
+
+function fun1(){
+	left2 = 0;
+	polos.style.left= left2 + "px";
+	slides1.style.color="#69BAC4";
+		slides2.style.color="#fff";
+		slides3.style.color="#fff";
+		slides4.style.color="#fff";
+		slides5.style.color="#fff";
+}
+function fun2(){
+	left2 = -808;
+	polos.style.left = left2 + "px";
+	slides2.style.color="#69BAC4";
+		slides1.style.color="#fff";
+		slides3.style.color="#fff";
+		slides4.style.color="#fff";
+		slides5.style.color="#fff";
+}
+function fun3(){
+	left2 = -1616;
+	polos.style.left = left2 + "px";
+	slides3.style.color="#69BAC4";
+		slides1.style.color="#fff";
+		slides2.style.color="#fff";
+		slides4.style.color="#fff";
+		slides5.style.color="#fff";
+}
+function fun4(){
+	left2 = -2424;
+	polos.style.left = left2 + "px";
+	slides4.style.color="#69BAC4";
+		slides1.style.color="#fff";
+		slides3.style.color="#fff";
+		slides2.style.color="#fff";
+		slides5.style.color="#fff";
+}
+function fun5(){
+	left2 = -3232;
+	polos.style.left = left2 + "px";
+	slides5.style.color="#69BAC4";
+		slides1.style.color="#fff";
+		slides3.style.color="#fff";
+		slides4.style.color="#fff";
+		slides2.style.color="#fff";
+}
+
+function auto2 () {
+	left2 = left2 - 808;
+	polos.style.left = left2 +'px';
+	// if (left2 < -4040) {
+	// 	left2 = 808;
+	// }
+	if (left2 == 0) {
+		slides1.style.color="#69BAC4";
+		slides2.style.color="#fff";
+		slides3.style.color="#fff";
+		slides4.style.color="#fff";
+		slides5.style.color="#fff";
+	}
+	if (left2 == -808) {
+		slides2.style.color="#69BAC4";
+		slides1.style.color="#fff";
+		slides3.style.color="#fff";
+		slides4.style.color="#fff";
+		slides5.style.color="#fff";
+	}
+	if (left2 == -1616) {
+		slides3.style.color="#69BAC4";
+		slides2.style.color="#fff";
+		slides1.style.color="#fff";
+		slides4.style.color="#fff";
+		slides5.style.color="#fff";
+	}
+	if (left2 == -2424) {
+		slides4.style.color="#69BAC4";
+		slides2.style.color="#fff";
+		slides3.style.color="#fff";
+		slides2.style.color="#fff";
+		slides5.style.color="#fff";
+	}
+	if (left2 == -3232) {
+		slides5.style.color="#69BAC4";
+		slides2.style.color="#fff";
+		slides3.style.color="#fff";
+		slides4.style.color="#fff";
+		slides1.style.color="#fff";
+		left2 = 808;
+	}
+	// if(left2 == -3232){
+	// 	// left = 0;
+	// 	polosa.style.left = left2 +'px';
+	// 	slide6.style.color="#69BAC4";
+	// 	slide2.style.color="#fff";
+	// 	slide3.style.color="#fff";
+	// 	slide4.style.color="#fff";
+	// 	slide5.style.color="#fff";
+	// 	slide1.style.color="#fff";
+	// 	left = 808;
+	// }
+}
+
+sl22.onclick = function sl2(){
+	
+	left = 0;
+	left = left - 808;
+	polos.style.left= left + "px";
+// var left2 = 0;
+
+// function sliderLeft2(){
+// 	var polosa2 = document.getElementById('polosa2');
+// 	left2 = left2 - 808;
+// 	if (left2 < -2424) {
+// 		left2 = 0;
+// 	}
+// 	polosa2.style.left2 = left2 +'px';
+	
+// }
+}
