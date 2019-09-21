@@ -1592,7 +1592,8 @@ a{
 	.abb{
 		flex-direction: column;
 		margin-left: 24px;
-		margin-top: 20px;
+		margin-top: 0px;
+		padding-bottom: 16px;
 	}
 	.big{
 		font-size: 76px;
@@ -1678,7 +1679,7 @@ a{
 		text-align: center;
 	}
 	.big{
-		font-size: 64px;
+		font-size: 52px;
 	}
 	.two-row{
 		flex-direction: column;
@@ -1878,6 +1879,9 @@ a{
 	}
 	.map{
 		height: 300px;
+	}
+	.s-big{
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 1600px){
