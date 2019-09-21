@@ -1766,7 +1766,7 @@ a{
 		width: 200px;
 		height: 35px;
 		padding: 4px;
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 	}
 	.obsudit{
 		width: 100px;
@@ -1863,7 +1863,7 @@ a{
 		width: 200px;
 	}
 	.contacts{
-		margin-top: 60px;
+		margin-top: 0px;
 	}
 	.select{
 		width: 200px;
