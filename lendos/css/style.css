@@ -34,7 +34,6 @@ option{
 #slider2 {
 	width: 808px;
 	height: 420px;
-	border: 5px solid black;
 	overflow: hidden;
 	left: 250px;
 	position: absolute;
@@ -49,7 +48,12 @@ option{
 #polosa2 img{
 	float: left;
 }
-
+.tez{
+	display: none;
+}
+.montaz-line-mobile{
+	display: none;
+}
 #polosa2::after {
 	content: "";
 	display: block;
@@ -59,7 +63,6 @@ option{
 #slider {
 	width: 808px;
 	height: 420px;
-	border: 5px solid black;
 	overflow: hidden;
 	position: absolute;
 	left: 200px;
@@ -209,8 +212,7 @@ option{
 	cursor: pointer;
 }
 .main-img{
-	padding-bottom: 100px;
-	padding-top: 200px;
+	margin-bottom: 80px;
 }
 .projects{
 	position: fixed;
@@ -1462,7 +1464,7 @@ a{
 	.number-menu{
 		flex-direction: column;
 		left: 130px;
-		padding-right: 31%;
+		padding-right: 10%;
 		top: 10px;	
 	}
 	.ld-text{
@@ -1475,28 +1477,33 @@ a{
 	}
 	.number{
 		font-size: 12px;
+		display: none;
 	}
 	.circles{
 		flex-direction: column;
 		padding-left: 15%;
 		padding-top: 80px;
 	}
-	.about{
-		position: absolute;
-		bottom: 0;
-		right: 4%;
+	.proekt{
+		display: none;
 	}
-	.projects{
-		bottom: 12%;
-		left: 11%;
+	.about{
+		/*position: absolute;
+		bottom: 0;
+		right: 4%;*/
 		display: none;
 		
+	}
+	.projects{
+		bottom: 3%;
+		left: 4%;
+		padding-left: 0;	
 	}
 	.forma p{
 		display: none;
 	}
 	.leaders h1{
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.strelka{
 		display: none;
@@ -1572,10 +1579,54 @@ a{
 	}
 	.montaz{
 		padding-left: 0;
-		padding-top: 30px;
+		padding-top: 80px;
 	}
 	.montaz-line div{
 		margin-right: 20px;
+		display: none;
+		
+	}
+	.montaz-line-mobile{
+		display: block;
+	}
+	.montaz-line-mobile p{
+		font-size: 12px;
+	}
+	.montaz-box-mobile1{
+		width: 200px;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.montaz-box-mobile2{
+		width: 200px;
+		text-align: center;
+		padding-bottom: 10px;
+		
+	}
+	.montaz-box-mobile3{
+		width: 200px;
+		text-align: center;	
+	}
+	.srochniy{
+		display: none;
+	}
+	.srochniy2{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.srochniy2 a{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px;
+		padding-left: 20px;
+		border: 1.2px solid #69BAC4;
+	}
+	.montaz-title{
+		display: none;
+		
+	}
+	.crkl2{
+		width: 60px;
 	}
 	.text-group{
 		padding-left: 8%;
@@ -1609,13 +1660,19 @@ a{
 	}
 	.leadrs{
 		width: 90%;
+		flex-direction: column;
 	}
 	.menu3{
 		padding-top: 150px;
 	}
-	.lead{
+	.leaders p.lead-text{
 		display: none;
-		
+	}
+	.ld-text{
+
+	}
+	.lead{
+		width: 100%;
 	}
 	.formaa{
 		margin-left: 16px;
@@ -1625,13 +1682,13 @@ a{
 	.forma input{
 		background-color: transparent;
 		color: #fff;
-		width: 184px;
+		width: 100%;
 		height: 34px;
 		padding: 8px;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 	.formaa h1{
-		font-size: 12px;
+		font-size: 13px;
 		padding: 0;
 		margin: 0;
 	}
@@ -1659,7 +1716,7 @@ a{
 	.forma{
 	text-align: center;
 	width: 90%;
-	border: 1.1px solid #69BAC4;
+	border: none;
 	height: 200px;
 	}
 	.form-b a{
@@ -1754,7 +1811,15 @@ a{
 	}
 	.call{
 		padding-top: 90px;
-		padding-left: 70px;
+		padding-left: 0px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.wdd{
+		width: 100%;
+	}
+	.inpt{
+		width: 100%;
 	}
 	#call{
 		font-size: 14px;
@@ -1763,7 +1828,7 @@ a{
 		border: 1.1px solid #69BAC4;
 		background-color: transparent;
 		color: #fff;
-		width: 200px;
+		width: 100%;
 		height: 35px;
 		padding: 4px;
 		margin-bottom: 10px;
@@ -1808,6 +1873,8 @@ a{
 	}
 	.montaz h1{
 		font-size: 14px;
+		text-align: center;
+		
 	}
 	.montaz p{
 		font-size: 12px;
@@ -1846,11 +1913,21 @@ a{
 	.srochniy{
 		margin-top: 0;
 	}
-	.one-col{
+	.p-none{
 		display: none;	
 	}
-	.three-col{
-		display: none;	
+
+	.row1 p{
+		font-size: 16px;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+		
+	}
+	.row2 p{
+		font-size: 16px;
+		padding-bottom: 20px;
+		text-transform: uppercase;
+		
 	}
 	label{
 	width: 100px;
@@ -1860,13 +1937,13 @@ a{
 	}
 	/*Поле комментария в форме*/
 	.comment{
-		width: 200px;
+		width: 100%;
 	}
 	.contacts{
 		margin-top: 0px;
 	}
 	.select{
-		width: 200px;
+		width: 100%;
 	}
 	.block4{
 		display: none;
@@ -1884,12 +1961,31 @@ a{
 		font-size: 12px;
 	}
 	.map{
+		height: 120px;
+	}
+	.map-box{
+
+	}
+	.coll1,.coll2{
 		display: none;
-		
+	}
+	.tez{
+		display: block;
+		text-align: center;
 	}
 	.s-big{
 		font-size: 16px;
 	}
+	.text-logo{
+		display: none;
+	}
+	.tez p{
+		padding-bottom: 20px;
+		font-size: 20px;
+		text-transform: uppercase;
+		
+	}
+
 }
 @media screen and (max-width: 1600px){
 	.map-box{
