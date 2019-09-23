@@ -17,6 +17,9 @@ label{
 textarea{
 	max-height: 200px;
 }
+.srochniy2{
+	display: none;
+}
 .select{
 	width: 612px;
 	height: 48px;
