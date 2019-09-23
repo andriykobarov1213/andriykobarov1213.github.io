@@ -1441,10 +1441,10 @@ a{
 		left: 20px;
 	}
 	label{
-		font-size: 16px;
+		font-size: 13px;
 		text-align: center;
 		position: absolute;
-		right: 20px;
+		right: 18px;
 	}
 	.maket{
 		margin-left: 5px;
@@ -1454,13 +1454,13 @@ a{
 
 	}
 	.obsudit a{
-		font-size: 16px;
+		font-size: 13px;
 		padding-top: 26px;
 		text-align: center;
 		padding-left: 0;
 	}
 	.obsudit{
-		width: 48%;
+		width: 46%;
 	}
 	#slider2{
 		width: 500px;
