@@ -64,6 +64,14 @@ h1{
 	margin-top: 50px;
 	text-align: center;
 }
+.title-block2 p{
+	font-size: 22px;
+}
+.title-block2 h2{
+	text-transform: uppercase;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 .box{
 	text-align: center;
 	text-transform: uppercase;
@@ -94,15 +102,37 @@ h1{
 }
 .title-call h2{
 	position: relative;
-	top: 100px;
+	top: 200px;
 	text-align: center;
 	z-index: 2;
 }
+.form{
+	position: relative;
+	z-index: 3;
+	bottom: 160px;
+}
 .bold-h2{
 	font-weight: 900;
+	font-size: 36px;
+}
+.title-call h2{
+	text-transform: uppercase;
 }
 .title-call{
 	padding: 0;
+}
+.form input{
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+	width: 310px;
+	margin-right: 16px;
+	outline: 0;
+    outline-offset: 0;
+}
+.btn{
+	background: #FFE400;
+	color: #000;
 }
 /*4 блок*/
 .sanitar{
@@ -171,4 +201,57 @@ h1{
 .review-text{
 	padding-bottom: 50px;
 	color: #9E9E9F;
+}
+@media screen and (min-width: 320px) and (max-width: 566px){
+	.title h1{
+		font-size: 32px;
+	}
+	.bg-header{
+
+	}
+	.sanitar{
+		display: none;
+	}
+	.rev{
+		display: none;
+	}
+	.title-call h2{
+		font-size: 22px;
+	}
+	.bold-h2{
+		font-size: 22px;
+	}
+	.title-call h2{
+		top: 0px;
+		margin-bottom: 70px;
+	}
+	.form input{
+		width: 200px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.form{
+		padding-top: 40px;
+	}
+	.button{
+		width: 310px;
+	}
+	.arrow-box{
+
+	}
+	.button a{
+		padding-left: 20px;
+		font-size: 16px;
+		padding-right: 12px;
+	}
+	.arrow-box{
+		margin-right: 0px;
+		margin-left: 0;
+	}
+	.arrow{
+		position: absolute;
+		top: 5px;
+		left: 16px;
+	}
 }
