@@ -1,14 +1,14 @@
 ﻿$(document).ready(function() {
 
-	$("#form").submit(function() {
+	$("#form2").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "mail.php",
+			url: "mail2.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$(this).find("input").val("");
 			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-			$("#form").trigger("reset");
+			$("#form2").trigger("reset");
 		});
 		return false;
 	});
