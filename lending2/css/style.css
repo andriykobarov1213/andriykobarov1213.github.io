@@ -287,3 +287,77 @@ h1{
 		padding-top: 30px;
 	}
 }
+@media screen and (min-width: 567px) and (max-width: 901px){
+	.header{
+		text-align: center;
+	}
+	.button{
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.logo{
+		margin-bottom: 90px;
+	}
+	.title h1{
+		font-size: 48px;
+	}
+	.title-call h2{
+		top: 20px;
+		font-size: 28px;
+	}
+	.form input{
+		width: 380px;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 10px;
+	}
+	.dr{
+		display: none;
+	}
+	.name{
+		bottom: 220px;
+		font-size: 52px;
+		left: 3%;
+	}
+	.sanitar{
+		height: 420px;
+	}
+	.about-him{
+		bottom: 220px;
+		width: 400px;
+		left: 3%;
+	}
+	.bg-review{
+		border-bottom: 1px solid #555555;
+		border-top: 1px solid #555555;
+	}
+}
+@media screen and (min-width: 902px) and (max-width: 1140px){
+	.form input{
+		width: 250px;
+		margin-right: 5px;
+	}
+	.title-call h2{
+		top: 20px;
+	}
+	.dr{
+		font-size: 120px;
+		right: 36px;
+	}
+	.name{
+		font-size: 80px;
+		bottom: 460px;
+	}
+	.about-him{
+		width: 600px;
+		bottom: 480px;
+	}
+}
+@media screen and (min-width: 1440px) and (max-width: 1920px){
+	.form{
+		bottom: 260px;
+	}
+	.rev{
+		padding-top: 300px;
+	}
+}
