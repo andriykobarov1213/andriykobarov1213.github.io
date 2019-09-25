@@ -12,6 +12,12 @@ body{
 	width: 100%;
 	height: 500px;
 }
+.bg-header-mobile{
+	display: none;
+}
+.sanitar-mobile{
+	display: none;
+}
 .logo p{
 	position: absolute;
 	left: 200px;
@@ -206,27 +212,22 @@ h1{
 	.title h1{
 		font-size: 32px;
 	}
-	.bg-header{
-
-	}
-	.sanitar{
-		display: none;
-	}
-	.rev{
-		display: none;
-	}
 	.title-call h2{
 		font-size: 22px;
+	}
+	.header{
+		text-align: center;
 	}
 	.bold-h2{
 		font-size: 22px;
 	}
 	.title-call h2{
 		top: 0px;
+		margin-top: 20px;
 		margin-bottom: 70px;
 	}
 	.form input{
-		width: 200px;
+		width: 290px;
 		margin: 0 auto;
 		display: block;
 		margin-bottom: 10px;
@@ -234,11 +235,13 @@ h1{
 	.form{
 		padding-top: 40px;
 	}
+	.call{
+		height: 380px;
+	}
 	.button{
 		width: 310px;
-	}
-	.arrow-box{
-
+		margin: 0 auto;
+		margin-top: 50px;
 	}
 	.button a{
 		padding-left: 20px;
@@ -251,7 +254,29 @@ h1{
 	}
 	.arrow{
 		position: absolute;
-		top: 5px;
-		left: 16px;
+		top: 6px;
+		left: 17px;
+	}
+	.bg-header{
+		display: none;
+	}
+	.bg-header-mobile{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 550px;
+	}
+	.sanitar{
+		display: none;
+	}
+	.sanitar-mobile img{
+		width: 100%;
+	}
+	.sanitar-mobile p{
+		font-size: 18px;
+	}
+	.sanitar-mobile{
+		display: block;
+		text-align: center;
 	}
 }
