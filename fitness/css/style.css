@@ -1,0 +1,33 @@
+body{
+	background: #120421;
+}
+.header{
+	border-bottom: 4px solid #620204;
+}
+.ul li{
+	list-style: none;
+	display: inline-block;
+}
+.logo img{
+	width: 130px;
+	height: 120px;
+}
+.menu-item a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 23px;
+	text-decoration: none;
+}
+.menu-item{
+	margin-right: 40px;
+}
+.news{
+	background: green;
+}
+.other{
+	background: blue;
+	height: 300px;
+}
+.info{
+	border-bottom: 4px solid #620204;
+}
