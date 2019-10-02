@@ -2,32 +2,28 @@ body{
 	background: #120421;
 }
 .header{
-	border-bottom: 4px solid #620204;
+	border-bottom: 2px solid #620204;
+	height: 60px;
 }
 .ul li{
 	list-style: none;
 	display: inline-block;
 }
 .logo img{
-	width: 130px;
-	height: 120px;
+	width: 150px;
 }
 .menu-item a{
 	text-transform: uppercase;
-	color: #fff;
-	font-size: 23px;
+	color: #F7C801;
+	font-size: 20px;
 	text-decoration: none;
+	font-weight: 500;
 }
 .menu-item{
 	margin-right: 40px;
 }
-.news{
-	background: ;
-}
-.other{
-	background: blue;
-	height: 300px;
-}
-.info{
-	border-bottom: 4px solid #620204;
+.sidebar{
+	height: 1000px;
+	border-right: 2px solid #620204;
+	border-bottom: 2px solid #620204;
 }
