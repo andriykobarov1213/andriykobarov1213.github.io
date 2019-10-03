@@ -83,7 +83,8 @@ hr{
 }
 .banner{
 	height: 400px;
-	background: red;
+	
+	margin-top: 55px;
 }
 .poster-text{
 	position: relative;
