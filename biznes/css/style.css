@@ -1,0 +1,135 @@
+.header{
+	padding-top: 20px;
+}
+.logo-text p{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: #199A12;
+	font-weight: 500;
+	margin-bottom: -10px;
+}
+.logo-text p:first-child{
+	font-size: 20px;
+}
+.logo img{
+	width: 50px;
+}
+.menu li{
+	list-style: none; 
+}
+.menu a{
+	margin-right: 40px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #7A3D1D;
+	font-weight: 500;
+}
+.menu{
+	margin-left: 300px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.one-row-header{
+	border: 2px solid grey;
+}
+.big-post{
+	background: green;
+	height: 400px;
+}
+.two-post{
+	padding: 0;
+}
+.top-post{
+	background: blue;
+	height: 50%;
+}
+.bot-post{
+	background: orange;
+	height: 50%;
+}
+hr{
+	background: grey;
+	height: 1px;
+}
+.big-post-page{
+	background: orange;
+	height: 400px;
+	padding: 0;
+}
+.two-post-page{
+	padding: 0;
+}
+.top-post-page{
+	height: 133px;
+	background: grey;
+}
+.center-post-page{
+	height: 133px;
+	background: brown;
+}
+.bot-post-page{
+	height: 133px;
+	background: pink;
+}
+.banner{
+	height: 400px;
+	background: red;
+}
+.poster-text{
+	position: relative;
+	top: 290px;
+	left: 20px;
+}
+.poster-text a{
+	background: red;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+.poster img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.name-post{
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+	margin-top: 16px;
+	font-weight: 600;
+}
+.date-post{
+	margin: 0;
+	padding: 0;
+}
+.smoll-poster-text{
+	margin-left: 10px;
+}
+.top-post-page img{
+	height: 120px;
+	width: 120px;
+}
+.center-post-page img{
+	height: 120px;
+	width: 120px;
+}
+.bot-post-page img{
+	height: 120px;
+	width: 120px;
+}
+.ad{
+	background: black;
+	height: 220px;
+}
+.banner-ad{
+	background: red;
+	height: 220px;
+}
+.post-smoll img{
+	width: 120px;
+	height: 120px;
+}
+.pst-text{
+	margin-left: 10px;
+}
